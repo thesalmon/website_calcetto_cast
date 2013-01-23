@@ -1,3 +1,18 @@
+/* body */
+html body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/grass.jpg');
+}
+
+/* wrapper */
+#wrapper {
+	width: 80%;
+￼	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* navigation */
 nav {  
     display: block;  
