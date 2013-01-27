@@ -2,15 +2,31 @@
 html body {
     margin: 0px;
     padding: 0px;
-    background-image: url('../img/grass.jpg');
+    background-image: url('../img/background.png');
+}
+
+header {
+	width: 100%;
+	background-image: url('../img/header.png');
+} 
+
+#title {
+	font-family: 'Galindo', cursive;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(247,246,242);
 }
 
 /* wrapper */
 #wrapper {
-	width: 80%;
+	width: 75%;
 ￼	height: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(247,246,242);
+	filter: alpha(opacity=96);
+	opacity: 0.96;
 }
 
 /* navigation */
