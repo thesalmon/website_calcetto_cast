@@ -2,15 +2,18 @@
 html body {
     margin: 0px;
     padding: 0px;
-    background-image: url('../img/background.png');
+    background-image: url('../img/background.jpg');
 }
 
+/* header */
 header {
 	width: 100%;
+	margin-top: 0px;
 	background-image: url('../img/header.png');
 } 
-
 #title {
+    margin: 0px;
+    padding: 25px 25px;
 	font-family: 'Galindo', cursive;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -25,26 +28,25 @@ header {
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(247,246,242);
-	filter: alpha(opacity=96);
-	opacity: 0.96;
+	filter: alpha(opacity=95);
+	opacity: 0.95;
 }
 
 /* navigation */
 nav {  
-    display: block;  
-    margin-bottom: 10px;  
-}  
-nav ul {  
     list-style: none;  
-    font-size: 14px;  
+    text-align: center;
+    font-size: 18px; 
+    margin-bottom: 10px;
 }  
-nav ul li {  
+nav ul li { 
     display: inline;  
 }  
 nav ul li a {  
-    display: block;  
-    float: left;  
-    padding: 3px 6px;  
+	/* TODO: enabled this to test left margin. It has to be removed
+	float: left; */
+    display: inline-block;  
+    padding: 15px 15px;  
     color: #575c7d;  
     text-decoration: none;  
     font-weight: bold;  
@@ -54,10 +56,10 @@ nav ul li a:hover {
     color: #485e0f;  
     -webkit-border-radius: 3px;  
     -moz-border-radius: 3px;  
-    border-radius: 3px;  
-    padding: 3px 6px;  
-    margin: 0;  
-    text-decoration: none;  
+    border-radius: 8px;  
+    padding: 15px 15px;  
+    margin: 0; 
+    text-decoration: none;
 } 
 
 /* page core */  
