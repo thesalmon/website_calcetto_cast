@@ -3,6 +3,7 @@ html body {
     margin: 0px;
     padding: 0px;
     background-image: url('../img/background.jpg');
+    font-family: 'Rambla', sans-serif;
 }
 
 /* header */
@@ -65,20 +66,25 @@ nav ul li a:hover {
 } 
 
 /* page core */  
+h2 {
+	font-weight: 700; 
+}
+
 div#core {  
+	margin-left: 5%;
     display: block;  
     clear: both;  
     margin-bottom: 20px;  
 }  
 section#left {  
-    width: 550px;  
+    width: 35%;  
     float: left;  
     margin: 0 15px;  
 }  
 section#right {  
     float: left;  
-    width: 300px;  
-}  
+    width: 55%;  
+} 
 
 /* clearfix */ 
 .clearfix:after {
