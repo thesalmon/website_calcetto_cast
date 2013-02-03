@@ -34,7 +34,6 @@ nav {
     text-align: center;
     font-size: 18px; 
     margin-bottom: 10px;
-    background-color: rgb(255,205,55);
 }  
 nav ul { 
     padding: 0px;
@@ -63,6 +62,22 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
 } 
+
+/* nav and footer gradients */
+.gradient {   
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFBD32 0%, #FFF140 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFBD32 0%, #FFF140 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFBD32 0%, #FFF140 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFBD32), color-stop(1, #FFF140));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFBD32 0%, #FFF140 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFBD32 0%, #FFF140 100%);
+}
 
 /* page core */  
 h2 {
