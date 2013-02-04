@@ -8,8 +8,8 @@ html body {
 }
 
 /* header */
-header {
-	height: 300px;
+#header_bar {
+	height: 250px;
 	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -18,7 +18,7 @@ header {
   	background-repeat: no-repeat;
 	background-position: right; 
 } 
-#title {
+#header_bar h1 {
     margin: 0px;
     padding: 25px 25px;
 	font-family: 'Galindo', cursive;
@@ -34,6 +34,9 @@ nav {
     text-align: center;
     font-size: 18px; 
     margin-bottom: 10px;
+    /* box shadow */
+    -webkit-box-shadow:  0px 5px 8px 0px rgb(204, 204, 204);    
+    box-shadow:  0px 5px 8px 0px rgb(204, 204, 204);
 }  
 nav ul { 
     padding: 0px;
@@ -100,12 +103,26 @@ section#right {
     width: 55%;  
 } 
 
+.icontext {
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.icontext h1 {
+	display: inline;
+	font-size: 24px;
+	padding-left: 5px;
+	vertical-align: 5px;
+}
+
 /* footer */
 footer {  
     text-align: center;
     background-color: rgb(255,205,55);
     margin: 0px;
-    padding: 5px;  
+    padding: 5px;
+    /* box shadow */
+    -webkit-box-shadow:  0px -5px 8px 0px rgb(204, 204, 204);    
+    box-shadow:  0px -5px 8px 0px rgb(204, 204, 204);
 }
 
 /* clearfix */ 
