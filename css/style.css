@@ -68,6 +68,8 @@ nav ul li a:hover {
 
 /* nav and footer gradients */
 .gradient {   
+    /* Old browsers */
+    background-color: rgb(255,205,55);
 	/* IE10 Consumer Preview */ 
 	background-image: -ms-linear-gradient(top, #FFBD32 0%, #FFF140 100%);
 	/* Mozilla Firefox */ 
@@ -80,19 +82,32 @@ nav ul li a:hover {
 	background-image: -webkit-linear-gradient(top, #FFBD32 0%, #FFF140 100%);
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to bottom, #FFBD32 0%, #FFF140 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFBD32', endColorstr='#FFF140',GradientType=0);
 }
 
 /* page core */  
 h2 {
 	font-weight: 700; 
 }
-
 div#core {  
 	margin-left: 5%;
     display: block;  
     clear: both;  
     margin-bottom: 20px;  
 }  
+
+/* image container */
+section#image {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+section#image img {
+	vertical-align: middle;
+}
+
 section#left {  
     width: 35%;  
     float: left;  
@@ -103,21 +118,39 @@ section#right {
     width: 55%;  
 } 
 
+section#left h1 {
+	font-size: 24px;
+}  
+
+/* title with ball icon */
 .icontext {
 	margin-top: 10px;
-	vertical-align: middle;
+}
+.icontext img {
+	vertical-align: -5px;
 }
 .icontext h1 {
 	display: inline;
 	font-size: 24px;
 	padding-left: 5px;
-	vertical-align: 5px;
+}
+
+/* phone number with icon */
+.phone {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.phone img {
+	vertical-align: -8px;
+}
+.phone p {
+	padding-left: 5px;
+	display: inline;
 }
 
 /* footer */
 footer {  
     text-align: center;
-    background-color: rgb(255,205,55);
     margin: 0px;
     padding: 5px;
     /* box shadow */
