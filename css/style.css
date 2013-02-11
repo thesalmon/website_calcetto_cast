@@ -97,17 +97,6 @@ div#core {
     margin-bottom: 20px;  
 }  
 
-/* image container */
-section#image {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	width: 100%;
-	text-align: center;
-}
-section#image img {
-	vertical-align: middle;
-}
-
 section#left {  
     width: 35%;  
     float: left;  
@@ -124,7 +113,7 @@ section#left h1 {
 
 /* title with ball icon */
 .icontext {
-	margin-top: 10px;
+	margin-top: 20px;
 }
 .icontext img {
 	vertical-align: -5px;
