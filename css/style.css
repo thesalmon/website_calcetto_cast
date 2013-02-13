@@ -147,6 +147,14 @@ footer {
     box-shadow:  0px -5px 8px 0px rgb(204, 204, 204);
 }
 
+/* map */
+#googleMap {
+	width: 100%; 
+	height: 450px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
 /* clearfix */ 
 .clearfix:after {
 	content: ".";
