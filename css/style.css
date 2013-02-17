@@ -124,6 +124,23 @@ section#left h1 {
 	padding-left: 5px;
 }
 
+/* external link */
+a.link {
+    text-decoration: none;  
+    font-weight: bold;
+    color: #FFBD32;
+}  
+.link:hover { 
+    text-decoration: underline;
+    color: #FFBD32;
+} 
+
+/* emphasized text */
+em {
+	font-weight: bold;
+    color: #FFBD32;
+}
+
 /* phone number with icon */
 .phone {
 	padding-top: 2px;
@@ -135,6 +152,18 @@ section#left h1 {
 .phone p {
 	padding-left: 5px;
 	display: inline;
+}
+
+/* table */
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table, td {
+	border: 1px dotted #FFBD32;
+}
+td {
+	padding: 4px 8px 4px 8px;
 }
 
 /* footer */
