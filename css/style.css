@@ -168,12 +168,23 @@ td {
 
 /* footer */
 footer {  
-    text-align: center;
+	overflow: auto;
     margin: 0px;
-    padding: 5px;
     /* box shadow */
     -webkit-box-shadow:  0px -5px 8px 0px rgb(204, 204, 204);    
     box-shadow:  0px -5px 8px 0px rgb(204, 204, 204);
+}
+footer #contact {
+	text-align: right;
+	float: left;
+	width: 42%;
+	padding-right: 3%;
+}
+footer #author {
+	text-align: left;
+	float: left;
+	width: 42%;
+	padding-left: 3%;
 }
 
 /* map */
