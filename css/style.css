@@ -2,8 +2,8 @@
 html body {
     margin: 0px;
     padding: 0px;
-    /* background-image: url('../img/background.jpg'); */
     background-color: rgb(247,246,242);
+    color: #282828;
     font-family: 'Rambla', sans-serif;
 }
 
@@ -48,7 +48,7 @@ nav ul li {
 nav ul li a {  
     display: inline-block;  
     padding: 15px 15px;  
-    color: black;  
+    color: #282828;
     text-decoration: none;  
     font-weight: bold;  
     text-transform: uppercase;
@@ -185,6 +185,20 @@ footer #author {
 	float: left;
 	width: 42%;
 	padding-left: 3%;
+}
+footer #author p {
+	padding-bottom: 0px;
+	margin-bottom: 3px;
+}
+
+/* mailto links */
+.mailto {
+    text-decoration: none; 
+    color: #282828;
+}  
+.mailto:hover { 
+    text-decoration: underline;
+    color: #282828;
 }
 
 /* map */
