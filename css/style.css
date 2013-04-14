@@ -141,6 +141,12 @@ em {
     color: #FFBD32;
 }
 
+/* black and capital letters emphasized text */
+em-capital {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 /* phone number with icon */
 .phone {
 	padding-top: 2px;
