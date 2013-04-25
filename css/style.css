@@ -114,6 +114,7 @@ section#left h1 {
 /* title with ball icon */
 .icontext {
 	margin-top: 20px;
+	margin-bottom: 5px;
 }
 .icontext img {
 	vertical-align: -5px;
@@ -122,6 +123,11 @@ section#left h1 {
 	display: inline;
 	font-size: 24px;
 	padding-left: 5px;
+}
+
+/* image link */
+.image_link { 
+	text-align:center; 
 }
 
 /* external link */
