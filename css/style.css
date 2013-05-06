@@ -5,6 +5,7 @@ html body {
     background-color: rgb(247,246,242);
     color: #282828;
     font-family: 'Rambla', sans-serif;
+    font-size: 16px;
 }
 
 /* header */
@@ -132,6 +133,7 @@ section#left h1 {
 
 /* external link */
 a.link {
+	font-size: 17px;
     text-decoration: none;  
     font-weight: bold;
     color: #FFBD32;
@@ -143,27 +145,17 @@ a.link {
 
 /* emphasized text */
 em {
+    font-size: 17px;
+	text-decoration: none;
 	font-weight: bold;
     color: #FFBD32;
 }
 
 /* black and capital letters emphasized text */
 em-capital {
+	font-size: 17px;
 	font-weight: bold;
 	text-transform: uppercase;
-}
-
-/* phone number with icon */
-.phone {
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.phone img {
-	vertical-align: -8px;
-}
-.phone p {
-	padding-left: 5px;
-	display: inline;
 }
 
 /* table */
