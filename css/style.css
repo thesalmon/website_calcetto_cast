@@ -143,6 +143,12 @@ a.link {
     color: #FFBD32;
 } 
 
+/* date */
+.date { 
+	text-align: right; 
+	font-style: italic;
+}
+
 /* emphasized text */
 em {
     font-size: 17px;
